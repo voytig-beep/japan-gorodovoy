@@ -544,6 +544,22 @@ h1 {
 .principles h2 { margin-top: 0; }
 .principles li + li { margin-top: .55rem; }
 
+.analytics-notice {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+  width: min(560px, calc(100% - 40px));
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--ink);
+  background: #f8eddf;
+  box-shadow: 0 16px 42px rgba(46, 35, 27, .2);
+}
+.analytics-notice p { margin: 0; color: var(--ink); font: .9rem/1.5 var(--sans); }
+.analytics-notice a { color: var(--wine); font-weight: 800; }
+.analytics-notice > div { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: .9rem; }
+.analytics-notice .button { min-height: 42px; padding: .75rem 1rem; }
+
 @media (max-width: 850px) {
   .article-hero, .article-layout { grid-template-columns: 1fr; }
   .article-hero .article-cover { grid-row: 1; }
