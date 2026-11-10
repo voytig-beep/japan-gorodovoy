@@ -8,6 +8,8 @@
 
 - `dist/index.html` — главная страница;
 - `dist/ozon-fire.html`, `dist/tatneft.html`, `dist/uralsib.html` — полные версии расследований на самом сайте;
+- `dist/about.html`, `dist/advertising.html` — сведения о проекте, реклама и контакты;
+- `dist/robots.txt`, `dist/sitemap.xml`, `dist/404.html` — поисковая индексация и обработка ошибочных ссылок;
 - `dist/assets/site.css` — адаптивная редакционная стилистика;
 - `dist/assets/site.js` — мобильное меню, поиск и фильтры архива, демонстрационная форма;
 - `dist/assets/*.webp` — оптимизированные копии утверждённых обложек;

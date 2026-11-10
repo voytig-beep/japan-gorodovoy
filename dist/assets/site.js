@@ -44,15 +44,3 @@ chips.forEach((chip) => {
   });
 });
 
-const form = document.querySelector('#prototype-form');
-const toast = document.querySelector('#toast');
-let toastTimer;
-
-form?.addEventListener('submit', (event) => {
-  event.preventDefault();
-  if (!toast) return;
-  toast.textContent = 'Это прототип: адрес не сохранён. Форму подключим только после вашего одобрения.';
-  toast.classList.add('visible');
-  clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => toast.classList.remove('visible'), 4500);
-});

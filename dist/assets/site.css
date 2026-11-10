@@ -403,6 +403,8 @@ h1 {
 .prototype-form label { display: grid; gap: .5rem; font: 700 .7rem/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
 .prototype-form input { min-height: 48px; padding: .8rem 1rem; border: 1px solid rgba(255,255,255,.32); color: #fff; background: rgba(255,255,255,.08); }
 .prototype-form p { margin: 0; font: .75rem/1.4 var(--sans); }
+.channel-actions { display: grid; align-content: center; justify-items: start; gap: 1rem; }
+.channel-actions p { margin: 0; }
 
 .about-section {
   display: grid;
@@ -483,6 +485,18 @@ h1 {
 .signal p { margin: 0; color: #d9dedf; }
 .article-source { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); color: var(--muted); font: .82rem/1.6 var(--sans); }
 .article-back { display: inline-flex; margin-bottom: 2rem; color: var(--wine); font: 800 .72rem/1 var(--sans); letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
+.static-shell { width: min(1040px, calc(100% - 40px)); margin: 56px auto 100px; }
+.static-hero { max-width: 880px; padding-bottom: 42px; border-bottom: 4px double var(--ink); }
+.static-hero h1 { max-width: 12ch; margin: .35rem 0 1rem; font-size: clamp(3rem, 7vw, 6rem); line-height: .9; }
+.static-hero .dek { max-width: 38ch; color: var(--muted); font-size: clamp(1.2rem, 2vw, 1.55rem); }
+.static-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; margin-top: 42px; }
+.static-card { padding: 1.5rem; border: 1px solid var(--ink); background: rgba(255,255,255,.27); }
+.static-card h2 { margin: 0 0 .7rem; font-size: 1.8rem; }
+.static-card p { margin: 0; color: var(--muted); }
+.static-card a { color: var(--wine); font-weight: 700; }
+.principles { margin-top: 54px; padding: 2rem; color: #f8eddf; background: var(--navy); }
+.principles h2 { margin-top: 0; }
+.principles li + li { margin-top: .55rem; }
 
 @media (max-width: 850px) {
   .article-hero, .article-layout { grid-template-columns: 1fr; }
@@ -552,6 +566,7 @@ h1 {
   .article-hero h1 { font-size: clamp(2.65rem, 14vw, 4.4rem); }
   .article-layout { margin-top: 38px; }
   .article-aside { grid-template-columns: 1fr; }
+  .static-grid { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {
