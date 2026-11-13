@@ -1,0 +1,6 @@
+# Локальные снимки визуальной проверки сайта
+preview-*.png
+
+# Промежуточные версии фрагмента документа; на сайте используется *-v2.png
+dist/assets/t-tech-price.png
+dist/assets/t-tech-price-clean.png
