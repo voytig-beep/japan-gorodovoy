@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Японский городовой — биржевые расследования</title>
+    <link>https://voytig-beep.github.io/japan-gorodovoy/</link>
+    <description>Факты, слухи, гипотезы и понятные выводы для частного инвестора.</description>
+    <language>ru-ru</language>
+    <lastBuildDate>Sat, 14 Nov 2026 00:20:00 +0300</lastBuildDate>
+    <atom:link href="https://voytig-beep.github.io/japan-gorodovoy/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Продавец без имени</title>
+      <link>https://voytig-beep.github.io/japan-gorodovoy/sovcombank-seller.html</link>
+      <guid isPermaLink="true">https://voytig-beep.github.io/japan-gorodovoy/sovcombank-seller.html</guid>
+      <pubDate>Sat, 14 Nov 2026 00:20:00 +0300</pubDate>
+      <description>Кому ушли 28,9 млрд рублей, почему совпали два пакета Совкомбанка и что это меняет для держателя SVCB.</description>
+    </item>
+    <item>
+      <title>Т-Технологии и Точка: кому достанутся 85 миллионов акций</title>
+      <link>https://voytig-beep.github.io/japan-gorodovoy/t-technologies-tochka.html</link>
+      <guid isPermaLink="true">https://voytig-beep.github.io/japan-gorodovoy/t-technologies-tochka.html</guid>
+      <pubDate>Tue, 10 Nov 2026 15:47:00 +0300</pubDate>
+      <description>Как устроена покупка Точки, кому достанутся новые акции и где возникает размытие.</description>
+    </item>
+    <item>
+      <title>Ozon: пожар уже пришёл в отчётность</title>
+      <link>https://voytig-beep.github.io/japan-gorodovoy/ozon-fire.html</link>
+      <guid isPermaLink="true">https://voytig-beep.github.io/japan-gorodovoy/ozon-fire.html</guid>
+      <pubDate>Mon, 09 Nov 2026 22:22:00 +0300</pubDate>
+      <description>Как резерв на 30,1 млрд рублей и будущая страховая выплата меняют вывод для владельца Ozon.</description>
+    </item>
+    <item>
+      <title>Уралсиб: 22 миллиарда после санации</title>
+      <link>https://voytig-beep.github.io/japan-gorodovoy/uralsib.html</link>
+      <guid isPermaLink="true">https://voytig-beep.github.io/japan-gorodovoy/uralsib.html</guid>
+      <pubDate>Mon, 09 Nov 2026 18:54:00 +0300</pubDate>
+      <description>Кому достанется прибыль банка и что дивиденды означают для миноритария.</description>
+    </item>
+    <item>
+      <title>Татнефть: кто заплатит за новые заводы</title>
+      <link>https://voytig-beep.github.io/japan-gorodovoy/tatneft.html</link>
+      <guid isPermaLink="true">https://voytig-beep.github.io/japan-gorodovoy/tatneft.html</guid>
+      <pubDate>Mon, 09 Nov 2026 00:30:00 +0300</pubDate>
+      <description>Три поручительства, два понятных проекта и одно нераскрытое совместное предприятие.</description>
+    </item>
+  </channel>
+</rss>

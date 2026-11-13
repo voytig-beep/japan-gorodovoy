@@ -115,3 +115,28 @@ if (analyticsConsent === 'accept') {
   showAnalyticsNotice();
 }
 
+document.addEventListener('click', (event) => {
+  const link = event.target.closest('a[href]');
+  if (!link || !window.ym || readAnalyticsConsent() !== 'accept') return;
+
+  let target;
+  try {
+    target = new URL(link.href, window.location.href);
+  } catch {
+    return;
+  }
+
+  const goal = target.hostname === 't.me'
+    ? 'telegram_click'
+    : target.hostname.endsWith('tbank.ru')
+      ? 'pulse_click'
+      : null;
+
+  if (goal) {
+    window.ym(METRIKA_ID, 'reachGoal', goal, {
+      destination: target.href,
+      source_page: window.location.pathname,
+    });
+  }
+});
+
